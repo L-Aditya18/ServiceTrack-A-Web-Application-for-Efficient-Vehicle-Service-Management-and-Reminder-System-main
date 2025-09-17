@@ -1,0 +1,37 @@
+.edit-vehicle-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-vehicle-container form div {
+    margin-bottom: 10px;
+}
+
+.edit-vehicle-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.edit-vehicle-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFC107;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}

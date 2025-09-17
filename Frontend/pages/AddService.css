@@ -1,0 +1,63 @@
+.add-service-page {
+    background-color: #1E293B;  /* Dark navy blue */
+    color: #E0F2FE;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #3B82F6;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #3B82F6;
+    background-color: #334155;
+    color: #E0F2FE;
+}
+
+.submit-btn {
+    background-color: #3B82F6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2563EB;
+}
+
+.success {
+    color: #22C55E;
+    background-color: #14532D;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+.error {
+    color: #F87171;
+    background-color: #B91C1C;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
